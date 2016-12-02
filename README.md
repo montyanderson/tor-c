@@ -40,3 +40,20 @@ int main() {
 	}
 }
 ```
+
+```
+$ ./a.out
+HTTP/1.0 302 Found
+Cache-Control: private
+Content-Type: text/html; charset=UTF-8
+Location: http://www.google.de/?gfe_rd=cr&ei=yVpBWKO4C8LG8AeW2oRw
+Content-Length: 256
+Date: Fri, 02 Dec 2016 11:28:09 GMT
+
+<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<TITLE>302 Moved</TITLE></HEAD><BODY>
+<H1>302 Moved</H1>
+The document has moved
+<A HREF="http://www.google.de/?gfe_rd=cr&amp;ei=yVpBWKO4C8LG8AeW2oRw">here</A>.
+</BODY></HTML>
+```
